@@ -4,16 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koudata projektien Landingpage</title>
-    <link rel="stylesheet" href="edukoStyle.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .unity, .other {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .unity p, .other p {
+            margin: 10px 0;
+        }
+
+        .unity a, .other a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .unity a:hover, .other a:hover {
+            color: #1abc9c;
+        }
+    </style>
 </head>
 <body>
-    <h1>Tervetuloa tietotekniikan projektisivuille!</h1>
-    <p>Täältä löydät meidän tekemät projektit ja vanhat asiakastyöt</p><br>
-    <p>Unity projektit:</p>
-    <p><a href="https://mc.koudata.fi/unity">Unity peli</a></p>
-    <p><a href="https://mc.koudata.fi/lastenpeli">Lapsille tarkoitettu Unity peli</a></p>
-    <br><br>
-    <p><a href="https://mc.koudata.fi/poikilo">Poikilo</a></p>
-    <p><a href="https://mc.koudata.fi/koulutusalat">Koulutusalat</a></p>
+    <div class="header">
+        <h1>Tervetuloa tietotekniikan projektisivuille!</h1>
+        <p>Täältä löydät meidän tekemät projektit ja vanhat asiakastyöt</p>
+    </div>
+    <br>
+    <div class="unity">
+        <p>Unity projektit:</p>
+        <p><a href="https://mc.koudata.fi/unity">Unity peli</a></p>
+        <p><a href="https://mc.koudata.fi/lastenpeli">Lapsille tarkoitettu Unity peli</a></p>
+    </div>
+    <br>
+    <div class="other">
+        <p>Muut:</p>
+        <p><a href="https://mc.koudata.fi/poikilo">Poikilo</a></p>
+        <p><a href="https://mc.koudata.fi/koulutusalat">Koulutusalat</a></p>
+    </div>
 </body>
 </html>
