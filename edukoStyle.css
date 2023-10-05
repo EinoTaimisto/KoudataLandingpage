@@ -1,6 +1,22 @@
+body {
+    background-color: #e7e7e1; 
+    font-family: Arial, sans-serif; 
+}
 h1 {
-    font-size: 80px;
+    text-align: center;
+    font-size: 30px; 
+    color: #333; 
 }
 p {
-    font-size: 25px;
+    font-size: 18px; 
+    color: #333; 
+}
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A39462; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    margin: 5px; 
 }
