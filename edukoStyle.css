@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #2980b9, #3498db, #1abc9c);
+    background-color: #A39462;
     background-size: 600% 600%;
     animation: gradientAnimation 15s ease infinite;
     color: #fff;
@@ -45,7 +45,7 @@ body {
 }
 
 .project-container h2 {
-    color: #3498db;
+    color: #A39462;
 }
 
 .project-container p {
@@ -53,7 +53,7 @@ body {
 }
 
 .project-container a {
-    color: #2980b9;
+    color: #A39462;
     text-decoration: none;
     font-weight: bold;
 }
@@ -61,3 +61,15 @@ body {
 .project-container a:hover {
     color: #1abc9c;
 }
+
+footer {
+    
+    width: auto;
+    height: auto; 
+    background-color: #454444;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-top: 200px; 
+  }
